@@ -1,0 +1,6 @@
+{
+  "name": "Bếp Việt Mỹ Vị - Thực Đơn & Đặt Bàn",
+  "description": "Ứng dụng gọi món Việt Nam truyền thống, đặt bàn trực tuyến, thanh toán ví điện tử MoMo/ZaloPay/VNPay, tích điểm thành viên và gợi ý món theo khẩu vị.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

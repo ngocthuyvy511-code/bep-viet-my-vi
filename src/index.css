@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: #FDFBF7;
+    color: #2D1A12;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom scrollbar for menu categories and tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle traditional decorative pattern classes */
+.bg-vietnam-pattern {
+  background-color: #8C1D18;
+  background-image: radial-gradient(#F59E0B 0.75px, transparent 0.75px), radial-gradient(#D97706 0.75px, #8C1D18 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
